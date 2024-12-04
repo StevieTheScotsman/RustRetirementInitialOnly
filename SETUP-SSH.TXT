@@ -1,0 +1,12 @@
+1. Check for any keys in home ssh directory - ls -al ~/.ssh
+2 .If none generate one - ssh-keygen -t ed25519 -C "steviethescotsman@gmail.com"
+3. Get ssh agent running in the background eval -"$(ssh-agent -s)"
+4 .Check keys are generated .pub is the public key the other one is the private key
+5. Add the private key to the ssh agent.- ssh-add ~/.ssh/id_ed25519
+6 .Open file with public key gedit id_ed25519.pub
+Add the ssh keys in github . Add whole entry including email.
+Check we can connect ssh -T git@github.com   ..Use exact command no need to substitute my gmail .
+9 . I had added a readme on the remote server then created new cargo project locally using cargo new rust-retirement-initial-only
+Added files to index git add -A
+Then committed them git commit -m "intial cargo setup"
+Finally pushed using git push . We are all set. 
