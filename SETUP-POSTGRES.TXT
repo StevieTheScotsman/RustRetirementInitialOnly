@@ -12,7 +12,7 @@ https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ub
 
 From terminal to get to interactive client do this
 
-sudo -i -u postgres
+sudo -i -u postgres ..when prompted for password use one for linux user eg. b*****5
 
 
 
