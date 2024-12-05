@@ -1,0 +1,25 @@
+
+install Postgres
+Now on linux box in office and on shona newcomputer
+
+json docs in postgres..suggests jsonb as storage type
+
+https://www.postgresql.org/docs/current/datatype-json.html
+
+
+https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart
+
+
+From terminal to get to interactive client do this
+
+sudo -i -u postgres
+
+
+
+To list db use psql -l
+
+To create db use createdb home_inspection
+
+To confirm use psql -l again.
+
+

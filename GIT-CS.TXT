@@ -1,0 +1,4 @@
+git ls-files - see files including tracked files not committed
+git add -A - start tracking
+git commit -m "message"..commit tracked files
+
