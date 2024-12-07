@@ -24,3 +24,5 @@ To confirm use psql -l again.
 
 
 To List users use psql \du
+
+To connect to template1 db use psql \c template1
