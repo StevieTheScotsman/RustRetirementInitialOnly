@@ -1,3 +1,5 @@
-https://www.strongdm.com/blog/postgres-create-user is a useful base guideline 
+https://www.strongdm.com/blog/postgres-create-user is a useful base guidelin
+ran alter user for postgres and changed password to password...see what happens now.
+failed ..tomorrow try updating hba config
 
-12-11-24 when connectes as postgres user running createuser --interactive joe does seem to work and can drop the user but need to figure out how to list users in postgres
+use  this link
