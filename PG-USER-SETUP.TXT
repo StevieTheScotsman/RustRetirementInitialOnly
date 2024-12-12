@@ -1,0 +1,1 @@
+https://www.strongdm.com/blog/postgres-create-user is a useful base guideline 

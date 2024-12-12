@@ -1,0 +1,2 @@
+
+sudo -i -u postgres ..when prompted for password use one for linux user eg. b*****5
