@@ -1,0 +1,6 @@
+
+Database management
+---------------------------
+To list db use psql -l
+
+To create db use createdb sc_home_inspection

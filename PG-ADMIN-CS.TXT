@@ -1,1 +1,1 @@
-Installed on shona computer . login is gmail and dwp is usual b*****5. It runs on apache and website access is at http://127.0.0.1/pgadmin4/
+Installed on shona computer . login is gmail and dwp is usual b*****5. It runs on apache and website access is at http://127.0.0.1/pgadmin4S
