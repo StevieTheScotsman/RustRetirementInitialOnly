@@ -1,0 +1,42 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SC Professional Services Home Inspection Report</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.3/dist/semantic.min.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  
+  <body>
+    <h1 class="ui center aligned header">SC Professional Services Home Inspection Report</h1>
+
+     <div class="row">
+      <form action="/api" method="post" enctype="multipart/form-data" style="display: none;">
+        <label for="file">File</label>
+        <input id="file" name="file" type="file" />
+        <button class="ui primary basic button">Upload</button>
+      </form>
+
+      <div class="field">
+        <div class="ui action input">
+            <input type="text" id="_attachmentName">
+            <label for="attachmentName" class="ui icon button btn-file">
+                 <i class="file upload icon"></i>
+                 <input type="file" id="attachmentName" name="attachmentName" style="display: none">
+            </label>
+        </div>
+    </div>    
+
+    
+      
+     </div>
+
+    <!--scripts-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@editorjs/editorjs@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.3/dist/semantic.min.js"></script>
+    <script src="scripts.js"></script>
+  </body>
+  
+  </html>
+
+  
