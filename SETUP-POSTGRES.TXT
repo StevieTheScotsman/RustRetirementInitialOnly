@@ -1,28 +1,7 @@
+i followed this guid on digitalocean https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart and it just worked on work linux laptop.
 
-install Postgres
-Now on linux box in office and on shona newcomputer
+i did uninstall postrges first then reinstall it though.
 
-json docs in postgres..suggests jsonb as storage type
+on that box we have postgres db user shona with her password (same as nc) and by default will connect to db shona by default
 
-https://www.postgresql.org/docs/current/datatype-json.html
-
-
-https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart
-
-
-From terminal to get to interactive client do this
-
-sudo -i -u postgres ..when prompted for password use one for linux user eg. b*****5
-
-
-
-To list db use psql -l
-
-To create db use createdb home_inspection
-
-To confirm use psql -l again.
-
-
-To List users use psql \du
-
-To connect to template1 db use psql \c template1
+my understanding is that this is ident authentiation type in postgres ...still to try using pgadmin4 
